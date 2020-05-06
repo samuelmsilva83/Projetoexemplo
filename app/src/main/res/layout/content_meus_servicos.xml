@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MeusServicosActivity"
+    tools:showIn="@layout/activity_meus_servicos">
+
+    <Button
+        android:id="@+id/btnAvancar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_btn"
+        android:onClick="abreTelaMeusHorarios"
+        android:text="@string/btn_avancar"
+        android:textColor="@color/texto_botoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout9" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerListaServicos"
+        android:layout_width="409dp"
+        android:layout_height="625dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/textSemCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Sem serviços cadastrados"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recyclerListaServicos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

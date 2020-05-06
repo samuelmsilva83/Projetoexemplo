@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Projeto exemplo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="titulo_cadastro">Realizar Cadastro</string>
+    <string name="titulo_login">Realizar Login</string>
+    <string name="hint_email_obr">E-mail*</string>
+    <string name="hint_senha">Senha</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="hint_nome_obr">Nome*</string>
+    <string name="hint_celular">Celular*</string>
+    <string name="hint_senha_obr">Senha* (Mínimo de 6 caracteres)</string>
+    <string name="hint_confirm_senha_obr">Confirmar Senha</string>
+    <string name="title_activity_cliente">ClienteActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="title_activity_servico">ServicoActivity</string>
+    <string name="btn_avancar">AVANÇAR</string>
+    <string name="btn_salvar_perfil">SALVAR PERFIL</string>
+    <string name="contrato_digital"><u>Contrato Digital</u></string>
+    <string name="radio_buttom_masculino">Masculino</string>
+    <string name="radio_buttom_feminino">Feminino</string>
+    <string name="data_nascimento">Data de Nascimento</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="hint_cep">CEP</string>
+    <string name="hint_cidade">Cidade</string>
+    <string name="hint_bairro">Bairro</string>
+    <string name="hint_endereco">Endereço</string>
+    <string name="hint_numero_complemento">Número / Complemento</string>
+    <string name="hint_data_nascimento">Data de Nascimento</string>
+
+    <string-array name="estados">
+        <item>SC</item>
+    </string-array>
+
+    <string-array name="cidades">
+        <item>Blumenau</item>
+    </string-array>
+
+    <string name="title_activity_raio_atendimento">Map</string>
+    <string name="title_activity_cadastro_servicos">CadastroServicosActivity</string>
+    <string name="title_activity_meus_servicos">MeusServicosActivity</string>
+    <string name="title_activity_meus_horarios">MeusHorariosActivity</string>
+    <string name="title_activity_meus_trabalhos">MeusTrabalhosActivity</string>
+    <string name="btn_finalizar_cadastro">FINALIZAR CADASTRO</string>
+    <string name="title_activity_agendamentos_profissional">AgendamentosProfissionalActivity
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="btn_cliente">Cliente</string>
+    <string name="btn_profissional">Profissional</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "362864152408",
+    "firebase_url": "https://barberhair-11397.firebaseio.com",
+    "project_id": "barberhair-11397",
+    "storage_bucket": "barberhair-11397.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362864152408:android:1b81b44ef2731e6d45df2d",
+        "android_client_info": {
+          "package_name": "samuelmoreirasilva.app.barberhair.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362864152408-0pioo7k3g70uqctl9m74dqhnroo8shqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "samuelmoreirasilva.app.barberhair.com",
+            "certificate_hash": "33ed4edd0d6348089b9531afca79044d1d3fefac"
+          }
+        },
+        {
+          "client_id": "362864152408-mhha9v95j36qpvmchqrsq1k9q5uue0al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM_JiR1YsOertVNci5dDHsRuE6OLBJBdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362864152408-mhha9v95j36qpvmchqrsq1k9q5uue0al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
